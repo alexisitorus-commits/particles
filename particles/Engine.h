@@ -1,5 +1,6 @@
 #pragma once
 #pragma once
+#include <SFML/Audio.hpp>
 #include "Particle.h"
 using namespace sf;
 using namespace std;

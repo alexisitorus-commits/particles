@@ -21,7 +21,7 @@ Particle::Particle(RenderTarget& target, int numPoints, Vector2i mouseClickPosit
 
 	//store location of center
 	Vector2f mapped = target.mapPixelToCoords(mouseClickPosition, m_cartesianPlane);
-	m_centerCoordinate = mapped;
+    m_centerCoordinate = Vector2f(round(mapped.x), round(mapped.y)); 
 
 	//Random pixel velocities
 	m_vx = (rand() % 401 + 100); // 100–500

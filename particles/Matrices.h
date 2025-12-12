@@ -107,7 +107,7 @@ namespace Matrices
             xShift  xShift  xShift  ...
             yShift  yShift  yShift  ...
             */
-            ///paramaters are xShift, yShift, and nCols
+            ///paramaters are xShicooft, yShift, and nCols
             ///nCols represents the number of columns in the matrix
             ///where each column contains one (x,y) coordinate pair
             TranslationMatrix(double xShift, double yShift, int nCols);
